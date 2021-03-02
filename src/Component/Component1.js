@@ -2,14 +2,23 @@ import React from 'react'
 import '../Styles/Component1.css';
 import Arrowbox from './Arrowbox';
 export default function Component1() {
+
+
+    const showcart=()=>{
+      const  x=document.getElementById("cart");
+        setTimeout(()=>{
+              x.className="unhide"
+        },2000)
+    }
     return (
         <div className="component__one">
             <div className="col-1">
-              <div className="header">
+              <div className="headercont">
                   <div>Shop</div>
                   <div>Read</div>
                   <div>Stores</div>
                   <div>Search</div>
+                  <div className="unhide"><i class="fa fa-bars" aria-hidden="true" onclick={showcart}></i></div>
               </div>
             </div>
             <div className="col-2">
@@ -20,7 +29,7 @@ export default function Component1() {
                 </div>
                </div>
             <div className="col-3">
-                  <div className="header">
+                  <div className="headercont hide">
                       <div>Login</div>
                       <div>Cart</div>
                   </div>
