@@ -5,10 +5,14 @@ import Component7 from './Component/Component7';
 import Component45 from './Component/Component45.js';
 import Component2 from './Component/Component2';
 import Component3 from './Component/Component3.js';
+import Cart from './Component/Cart';
 function App() {
   return (
     <div className="grid-container">
-      <header>Header</header>
+        <div className="header">
+            <div className="main__content">
+            <p>Enjoy complimentary standard shipping on all orders.  <i class="fa fa-plus" aria-hidden="true"></i></p></div>
+        </div>
       <main>
         <div class="main__body">
           <Component1/>
