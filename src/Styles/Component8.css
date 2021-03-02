@@ -89,12 +89,19 @@ li{
     margin-top:1rem;
 
 }
-@media screen and (max-width:680px)
+@media screen and (max-width:800px)
 {
    .component__eight{
        display:flex;
        flex-direction: column;
        justify-content: space-between;
-       height: 100%;
+   
+       flex:1;
+       
    } 
+   .component__eight>.col-1,.component__eight>.col-2,.component__eight>.col-3,.component__eight>.col-4
+   {
+       flex:1;
+       justify-content: center;
+   }
 }
