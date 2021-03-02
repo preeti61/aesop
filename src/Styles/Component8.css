@@ -10,7 +10,7 @@
     align-items: center;
     padding: 5rem 8rem;
     height: 50rem;
-    flex:1;
+    flex:0.9;
 }
 
 .component__eight>.col-1{
@@ -89,19 +89,12 @@ li{
     margin-top:1rem;
 
 }
-@media screen and (max-width:800px)
+@media screen and (max-width:680px)
 {
    .component__eight{
        display:flex;
        flex-direction: column;
        justify-content: space-between;
-   
-       flex:1;
-       
+       height: 100%;
    } 
-   .component__eight>.col-1,.component__eight>.col-2,.component__eight>.col-3,.component__eight>.col-4
-   {
-       flex:1;
-       justify-content: center;
-   }
 }
