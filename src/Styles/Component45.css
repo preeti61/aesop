@@ -4,6 +4,7 @@
     height: 55rem;
     justify-content:space-between;
     padding:5rem;
+    flex:0.9;
 }
 .component__fourfive>.col-1{
     flex:0.3;
