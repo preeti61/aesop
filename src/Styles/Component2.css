@@ -5,12 +5,14 @@
     align-items: center;
 }
 
-@media screen and (max-width:680px)
+@media screen and (max-width:800px)
 {
    .component__two{
        display:flex;
        flex-direction: column;
        justify-content: space-between;
        height: 100%;
+       flex:1;
+      
    } 
 }
