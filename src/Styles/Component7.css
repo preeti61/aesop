@@ -3,15 +3,15 @@
     justify-content: center;
     height: 45rem;
     margin-bottom: 10rem;
-    
+    flex:0.9;
 }
 .component__seven>.main__content{
-    flex:0.5;
+    flex:0.6;
     margin-top: 17rem;
 }
-
-h1{
-    font-weight: 200;
+.main__content>.quote{
+    font-weight: 180;
+    font-size: 3.5rem;
 }
 
 
@@ -20,13 +20,13 @@ h1{
    .component__seven{
        display:flex;
        flex-direction: column;
-       justify-content: space-between;
+       justify-content: center;
        width: 100vw;
        flex:1;
        height: 100%;
    } 
    .component__seven>.main__content
    {
-       flex:1;
+       flex:0.7
    }
 }
