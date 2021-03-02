@@ -1,0 +1,100 @@
+.component__eight{
+    display: flex;
+    margin:0;
+    padding:0;
+    justify-content: space-between;
+    background-color: black;
+    color: white;
+    font-size: 1.6rem;
+    vertical-align:auto ;
+    align-items: center;
+    padding: 5rem 8rem;
+    height: 50rem;
+    flex:1;
+}
+
+.component__eight>.col-1{
+ justify-items: center;
+ flex:0.35;
+ margin-top: 9.7rem;
+ align-items: flex-start;
+}
+
+.component__eight>.col-2
+{
+      justify-items: center;
+     flex:0.2;
+     margin-top: 5rem;
+     align-items: flex-start;
+}
+
+.component__eight>.col-3
+{
+    justify-items: center;
+   flex:0.2;
+   margin-top: 5rem;
+   align-items: flex-start;
+}
+.component__eight>.col-4
+{
+    justify-items: center;
+   flex:0.2;
+   margin-top: 5rem;
+   align-items: flex-start;
+}
+
+.col-1portion-1,.col-1portion-2
+{
+    display: flex;
+    flex-direction: column;
+    height:20rem;
+}.col-2portion-1,.col-2portion-2,.col-3portion-1,.col-3portion-2,.col-4portion-1{
+    display: flex;
+    flex-direction: column;
+    height: 20rem;
+}
+
+.col-1portion-1>.input_box{
+ color: black;
+ vertical-align: middle;
+ border: 0.2rem solid white;
+ border-radius: 0.2rem;
+ display: flex;
+ height: 3rem;
+ justify-items: center;
+}
+.col-1portion-1>.input_box>input{
+    background-color:black;
+    color:white;
+    border: none;
+     flex: 0.9;
+     outline-width: 0;
+     font-size: 1.6rem;
+     margin: auto;
+}
+.col-1portion-1>.input_box>i{
+    color:white;
+     margin:auto;
+    flex:0.1;
+}
+.col-1portion-2>h3,.col-2portion-2>h3,.col-2portion-1>h3,.col-3portion-1>h3,.col-3portion-2>h3,.col-4portion-1>h3{
+    padding-bottom: 0.4rem;
+    border-bottom: 0.2rem solid white;
+    height: 3rem;
+}
+
+
+li{
+    list-style: none;
+    margin-top:1rem;
+
+}
+@media screen and (max-width:680px)
+{
+   .component__eight{
+       display:flex;
+       flex-direction: column;
+       justify-content: space-between;
+       height: 100%;
+   } 
+}

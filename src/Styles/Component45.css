@@ -1,0 +1,30 @@
+
+.component__fourfive{
+    display: flex;
+    height: 55rem;
+    justify-content:space-between;
+    padding:5rem;
+}
+.component__fourfive>.col-1{
+    flex:0.3;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+  
+}
+
+.component__fourfive>.col-2{
+    flex:0.6;
+}
+h2{
+    font-weight: 150;
+}
+@media screen and (max-width:680px)
+{
+   .component__fourfive{
+       display:flex;
+       flex-direction: column;
+       justify-content: space-between;
+       height: 100%;
+   } 
+}

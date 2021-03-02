@@ -1,0 +1,11 @@
+.outer__box{
+    margin-top:5rem;
+    display: flex;
+    width: 20rem;
+    padding:2rem;
+    border: 0.3rem solid black;
+    justify-content: space-evenly;
+}
+.white{
+    border: 0.3rem solid white;
+}

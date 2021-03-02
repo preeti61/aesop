@@ -1,0 +1,16 @@
+.component__two{
+    display: flex;
+    padding: 5rem;
+    justify-content: space-between;
+    align-items: center;
+}
+
+@media screen and (max-width:680px)
+{
+   .component__two{
+       display:flex;
+       flex-direction: column;
+       justify-content: space-between;
+       height: 100%;
+   } 
+}

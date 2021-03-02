@@ -1,0 +1,18 @@
+.item{
+    display: flex;
+    flex-direction: column;
+    flex:0.33;
+    justify-content: space-between;
+}
+.item__info{
+    padding-left:10rem;
+}
+.item__info>h4{
+    margin-bottom: 1rem;
+    text-decoration: underline;
+}
+.image__item
+{
+    width:41rem;
+    height:45rem;
+}

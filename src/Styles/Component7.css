@@ -1,0 +1,27 @@
+.component__seven{
+    display: flex;
+    justify-content: center;
+    height: 45rem;
+    margin-bottom: 10rem;
+    
+}
+.component__seven>.main__content{
+    flex:0.5;
+    margin-top: 17rem;
+}
+
+h1{
+    font-weight: 200;
+}
+
+
+@media screen and (max-width:680px)
+{
+   .component__seven{
+       display:flex;
+       flex-direction: column;
+       justify-content: space-between;
+       width: 100vw;
+       height: 100%;
+   } 
+}
