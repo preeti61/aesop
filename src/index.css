@@ -22,7 +22,7 @@ code {
 
 .grid-container{
   display:flex;
-  height:100%;
+  height:100vh;
   max-width: 100vw;
   flex-direction: column;
 }
