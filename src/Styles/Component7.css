@@ -15,13 +15,18 @@ h1{
 }
 
 
-@media screen and (max-width:680px)
+@media screen and (max-width:800px)
 {
    .component__seven{
        display:flex;
        flex-direction: column;
        justify-content: space-between;
        width: 100vw;
+       flex:1;
        height: 100%;
    } 
+   .component__seven>.main__content
+   {
+       flex:1;
+   }
 }
